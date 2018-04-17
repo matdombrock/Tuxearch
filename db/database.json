@@ -1,0 +1,452 @@
+[
+	{
+		"INFO" : "adduser - add user",
+		"COMMAND" : "adduser <username>",
+		"TAGS" : "name new create setup build make"
+	},
+	{
+		"INFO" : "chown - change ownership of file",
+		"COMMAND" : "chown <user>:<user> <FileName>",
+		"TAGS" : "own user owner"
+	},
+	{
+		"INFO" : "chown - change ownership of a directory",
+		"COMMAND" : "chown -R <XYZ> <DirectoryName>",
+		"TAGS" : "own directory user owner"
+	},
+	{
+		"INFO" : "service - start service",
+		"COMMAND" : "service <ServiceName> start",
+		"TAGS" : "begin create"
+	},
+	{
+		"INFO" : "service - stop service",
+		"COMMAND" : "service <ServiceName> stop",
+		"TAGS" : "end quit"
+	},
+	{
+		"INFO" : "service - restart service",
+		"COMMAND" : "service <ServiceName> restart",
+		"TAGS" : "reset start stop"
+	},
+	{
+		"INFO" : "groupadd - new group",
+		"COMMAND" : "groupadd <GroupName>",
+		"TAGS" : "create make setup"
+	},
+	{
+		"INFO" : "usermod - put user in group",
+		"COMMAND" : "usermod -G <GroupName> <username>",
+		"TAGS" : "put user set switch"
+	},
+	{
+		"INFO" : "pwd - show current directory",
+		"COMMAND" : "pwd",
+		"TAGS" : "directory folder where location"
+	},
+	{
+		"INFO" : "ls - list files in current directory",
+		"COMMAND" : "ls",
+		"TAGS" : "show explore"
+	},
+	{
+		"INFO" : "ls - list hidden files (and all other files) in current directory",
+		"COMMAND" : "ls -a",
+		"TAGS" : "show explore hidden"
+	},
+	{
+		"INFO" : "ls - list files in current directory with details",
+		"COMMAND" : "ls -l",
+		"TAGS" : "show explore details info"
+	},
+	{
+		"INFO" : "touch - create a hidden file",
+		"COMMAND" : "touch .<FileName>",
+		"TAGS" : "hide make new"
+	},
+	{
+		"INFO" : "touch - create a hidden directory",
+		"COMMAND" : "touch .<DirectoryName>",
+		"TAGS" : "hide make new folder"
+	},
+	{
+		"INFO" : "mv - hide a file",
+		"COMMAND" : "mv <FileName> .<FileName>",
+		"TAGS" : "hidden"
+	},
+	{
+		"INFO" : "mv - hide a directory",
+		"COMMAND" : "mv <DirectoryName> .<DirectoryName>",
+		"TAGS" : "hidden folder"
+	},
+	{
+		"INFO" : "cd - change directory",
+		"COMMAND" : "cd <DirectoryName>",
+		"TAGS" : "changedirectory folder switch go to goto"
+	},
+	{
+		"INFO" : "move up one directory",
+		"COMMAND" : "cd ..",
+		"TAGS" : "changedirectory folder switch go to goto back return"
+	},
+	{
+		"INFO" : "mkdir - create a directory",
+		"COMMAND" : "mkdir <DirectoryName>",
+		"TAGS" : "folder new build make setup"
+	},
+	{
+		"INFO" : "rmdir - remove and empty directory",
+		"COMMAND" : "rmdir <DirectoryName>",
+		"TAGS" : "destroy delete"
+	},
+	{
+		"INFO" : "rm - remove a directory with files in it",
+		"COMMAND" : "rm -r <DirectoryName>",
+		"TAGS" : "rmdir destroy delete empty non-empty"
+	},
+	{
+		"INFO" : "touch - create an empty file",
+		"COMMAND" : "touch <FileName>",
+		"TAGS" : "make new build setup"
+	},
+	{
+		"INFO" : "create a file with content",
+		"COMMAND" : "echo \"<Your Content Here>\" >> <FileName>",
+		"TAGS" : "print write show text output save"
+	},
+	{
+		"INFO" : "man - show manual",
+		"COMMAND" : "man <CommandName>",
+		"TAGS" : "help command use usage"
+	},
+	{
+		"INFO" : "show help",
+		"COMMAND" : "<CommandName> --help",
+		"TAGS" : "man manual command use usage"
+	},
+	{
+		"INFO" : "cp - copy a file",
+		"COMMAND" : "cp <FileName> <FileDestination>",
+		"TAGS" : "paste"
+	},
+	{
+		"INFO" : "mv - move a file",
+		"COMMAND" : "mv <FileName> <FileDestination>",
+		"TAGS" : "cut"
+	},
+	{
+		"INFO" : "rename a file",
+		"COMMAND" : "mv <FileName> <NewFileName>",
+		"TAGS" : "name change"
+	},
+	{
+		"INFO" : "cat - display file contents",
+		"COMMAND" : "cat <FileName>",
+		"TAGS" : "text output show display read"
+	},
+	{
+		"INFO" : "edit file contents",
+		"COMMAND" : "<Editor> <FileName>",
+		"TAGS" : "edit text show read display change write"
+	},
+	{
+		"INFO" : "su - switch user account",
+		"COMMAND" : "su <UserName>",
+		"TAGS" : "root name username"
+	},
+	{
+		"INFO" : "sudo - execute as root",
+		"COMMAND" : "sudo <Command>",
+		"TAGS" : "su admin administrator super user"
+	},
+	{
+		"INFO" : "df - see available disk space",
+		"COMMAND" : "df -m",
+		"TAGS" : "hard drive hdd ssd"
+	},
+	{
+		"INFO" : "du - see disk usage",
+		"COMMAND" : "du <DirectoryName>",
+		"TAGS" : "hard drive hdd ssd"
+	},
+	{
+		"INFO" : "zip a file",
+		"COMMAND" : "zip <NewZipFileName>.zip <file1> <file2> <file3>",
+		"TAGS" : "compress unzip .zip"
+	},
+	{
+		"INFO" : "zip a directory",
+		"COMMAND" : "zip -r <NewFileName>.zip <DirectoryToZip>",
+		"TAGS" : "compress unzip .zip"
+	},
+	{
+		"INFO" : "unzip a file",
+		"COMMAND" : "unzip <FileName>.zip",
+		"TAGS" : "compress unzip zip .zip"
+	},
+	{
+		"INFO" : "uname - see system information",
+		"COMMAND" : "uname -a",
+		"TAGS" : "info stats linux version os software"
+	},
+	{
+		"INFO" : "install a package",
+		"COMMAND" : "apt install <PackageName>",
+		"TAGS" : "app application program software apt-get"
+	},
+	{
+		"INFO" : "update package listings",
+		"COMMAND" : "apt update",
+		"TAGS" : "app application program software apt-get"
+	},
+	{
+		"INFO" : "upgrade all packages",
+		"COMMAND" : "apt upgrade",
+		"TAGS" : "app application program software apt-get"
+	},
+	{
+		"INFO" : "look for an installable package",
+		"COMMAND" : "apt search <Search Terms>",
+		"TAGS" : "app application program software apt-get find location"
+	},
+	{
+		"INFO" : "ping - ping an IP",
+		"COMMAND" : "ping <IPAddr>",
+		"TAGS" : "networking connection address server"
+	},
+	{
+		"INFO" : "ifconfig - show internet connection information",
+		"COMMAND" : "ifconfig",
+		"TAGS" : "networking connection address server ip find search my mine local"
+	},
+	{
+		"INFO" : "nmap - search an IP for open ports",
+		"COMMAND" : "nmap <IPAddr>",
+		"TAGS" : "networking connection address server"
+	},
+	{
+		"INFO" : "search the output of a command",
+		"COMMAND" : "<CommandName> | grep <SearchTerm>",
+		"TAGS" : "find look locate discover"
+	},
+	{
+		"INFO" : "ssh - ssh to a remote server",
+		"COMMAND" : "ssh <RemoteUser>@<RemoteServer>",
+		"TAGS" : "login access secure"
+	},
+	{
+		"INFO" : "generate an ssh key",
+		"COMMAND" : "ssh-keygen",
+		"TAGS" : "login access secure"
+	},
+	{
+		"INFO" : "copy an ssh id to a remote server",
+		"COMMAND" : "ssh-copy-id -i <IDName> <RemoteUser>@<RemoteServer>",
+		"TAGS" : "login access secure identity key"
+	},
+	{
+		"INFO" : "top - see system processes",
+		"COMMAND" : "top",
+		"TAGS" : "apps task manager applications software running ram cpu"
+	},
+	{
+		"INFO" : "launch a detachable program with tmux",
+		"COMMAND" : "tmux new -s <SessionName>",
+		"TAGS" : "apps task manager applications software running ram cpu"
+	},
+	{
+		"INFO" : "break away from tmux and detach",
+		"COMMAND" : "ctrl+b d",
+		"TAGS" : "apps task manager applications software running ram cpu"
+	},
+	{
+		"INFO" : "attach to tmux session",
+		"COMMAND" : "tmux a -t <SessionName>",
+		"TAGS" : "apps task manager applications software running ram cpu"
+	},
+	{
+		"INFO" : "List tmux sessions",
+		"COMMAND" : "tmux ls",
+		"TAGS" : "apps task manager applications software running ram cpu"
+	},
+	{
+		"INFO" : "kill tmux session",
+		"COMMAND" : "tmux kill-session -t <SessionName>",
+		"TAGS" : "apps task manager applications software running ram cpu"
+	},
+	{
+		"INFO" : "kill all tmux sessions",
+		"COMMAND" : "tmux ls | grep : | cut -d. -f1 | awk '{print substr($1, 0, length($1)-1)}' | xargs kill",
+		"TAGS" : "apps task manager applications software running ram cpu"
+	},
+	{
+		"INFO" : "see local users",
+		"COMMAND" : "cut -d: -f1 /etc/passwd",
+		"TAGS" : "view all name username names usernames user list"
+	},
+	{
+		"INFO" : "list and describe all installed packages",
+		"COMMAND" : "dpkg -l",
+		"TAGS" : "view apps applications software"
+	},
+	{
+		"INFO" : "name all installed packages",
+		"COMMAND" : "dpkg --get-selections | grep -v \"deinstall\" | cut -f1",
+		"TAGS" : "view apps applications software"
+	},
+	{
+		"INFO" : "edit path on ubuntu ",
+		"COMMAND" : "<Editor> /etc/environment",
+		"TAGS" : "enviroment path change"
+	},
+	{
+		"INFO" : "chmod - change file permissions",
+		"COMMAND" : "chmod <Options> <Permissions> <FileName>",
+		"TAGS" : "execute executable read write access permission allow allowed lock disallow access"
+	},
+	{
+		"INFO" : "chmod - change directory permissions",
+		"COMMAND" : "chmod -R <Permissions> <DirectoryName>",
+		"TAGS" : "execute executable read write access permission allow allowed lock disallow folder access"
+	},
+	{
+		"INFO" : "protect file from overwrite",
+		"COMMAND" : "chmod 400 <FileName>",
+		"TAGS" : "overwriting accident change lock permission permissions"
+	},
+	{
+		"INFO" : "protect file from other users",
+		"COMMAND" : "chmod 700 <FileName>",
+		"TAGS" : " hide lock public access permission permissions"
+	},
+	{
+		"INFO" : "allow anyone to control file",
+		"COMMAND" : "chmod 777 <FileName>",
+		"TAGS" : "wild public access permission permissions"
+	},
+	{
+		"INFO" : "allow file to be read and executed by anyone",
+		"COMMAND" : "chmod 755 <FileName>",
+		"TAGS" : "server web public permission permissions access"
+	},
+	{
+		"INFO" : "edit path on debian",
+		"COMMAND" : "<Editor> /etc/profile",
+		"TAGS" : "enviroment path change"
+	},
+	{
+		"INFO" : "enter cli mode",
+		"COMMAND" : "ctrl + alt + f1",
+		"TAGS" : "command line interface switch change cmd terminal"
+	},
+	{
+		"INFO" : "exit cli mode",
+		"COMMAND" : "alt + f7",
+		"TAGS" : "command line interface switch change cmd terminal"
+	},
+	{
+		"INFO" : "see your groups",
+		"COMMAND" : "groups",
+		"TAGS" : "show view see look check find group"
+	},
+	{
+		"INFO" : "see a user's groups",
+		"COMMAND" : "groups <UserName>",
+		"TAGS" : "show view see look check find group"
+	},
+	{
+		"INFO" : "block an address",
+		"COMMAND" : "iptables -I INPUT -s <IP_ADDRESS> -j DROP",
+		"TAGS" : "stop iptables blacklist secure security ban login prevent firewall ip"
+	},
+	{
+		"INFO" : "check open ports",
+		"COMMAND" : "netstat -an | grep -i listen",
+		"TAGS" : "view see secure security stats stat ports firewall"
+	},
+	{
+		"INFO" : "see who is logged in",
+		"COMMAND" : "w",
+		"TAGS" : "users check security secure log login ip address view system"
+	},
+	{
+		"INFO" : "see info about services",
+		"COMMAND" : "service --status-all",
+		"TAGS" : "list all running check view "
+	},
+	{
+		"INFO" : "see monitor info",
+		"COMMAND" : "xrandr",
+		"TAGS" : "display resolution graphics screen"
+	},
+	{
+		"INFO" : "set primary monitor",
+		"COMMAND" : "xrandr --output <MonitorName> --primary",
+		"TAGS" : "display resolution graphics screen default"
+	},
+	{
+		"INFO" : "turn monitor off",
+		"COMMAND" : "xrandr --output <MonitorName> --off",
+		"TAGS" : "display resolution graphics screen"
+	},
+	{
+		"INFO" : "turn monitor on",
+		"COMMAND" : "xrandr --output <MonitorName> --auto",
+		"TAGS" : "display resolution graphics screen"
+	},
+	{
+		"INFO" : "see recent logins",
+		"COMMAND" : "last",
+		"TAGS" : "secure security login user username names ip ips address log history"
+	},
+	{
+		"INFO" : "see historical logins",
+		"COMMAND" : "last -f /var/log/wtmp.1",
+		"TAGS" : "secure security login user username names ip ips address log old history"
+	},
+	{
+		"INFO" : "get info about an ip",
+		"COMMAND" : "whois <IP>",
+		"TAGS" : "who check information see look lookup search records"
+	},
+	{
+		"INFO" : "see bash history",
+		"COMMAND" : "cat $HISTFILE",
+		"TAGS" : "record command commands last check view"
+	},
+	{
+		"INFO" : "live monitor a file for changes",
+		"COMMAND" : "tail -f <FileName>",
+		"TAGS" : "check view real time real-time logging security watch log logs"
+	},
+	{
+		"INFO" : "check path settings",
+		"COMMAND" : "echo $PATH",
+		"TAGS" : "see look view"
+	},
+	{
+		"INFO" : "see members of a group",
+		"COMMAND" : "members <GroupName>",
+		"TAGS" : "check users"
+	},
+	{
+		"INFO" : "see all groups",
+		"COMMAND" : "cat /etc/group",
+		"TAGS" : "check list"
+	},
+	{
+		"INFO" : "shutdown the system",
+		"COMMAND" : "shutdown",
+		"TAGS" : "shut down exit end session computer server"
+	},
+	{
+		"INFO" : "reboot the system",
+		"COMMAND" : "reboot",
+		"TAGS" : "shut down exit restart session computer server"
+	},
+	{
+		"INFO" : "suspend the system",
+		"COMMAND" : "systemctl suspend ",
+		"TAGS" : "shut down exit pause hibernate session computer"
+	}
+]

@@ -1,0 +1,234 @@
+#description of command
+#command
+#tags separated by spaces only because tags can only be one word
+
+add user
+adduser <username>
+name new create setup build make
+
+change ownership of file
+chown <user>:<user> <FileName>
+own user owner
+
+change ownership of a directory
+chown -R <XXX> <DirectoryName>
+own directory user owner
+
+start service
+service <ServiceName> start
+begin create
+
+stop service
+service <ServiceName> stop
+end quit
+
+restart service
+service <ServiceName> restart
+reset start stop
+
+new group
+groupadd <GroupName>
+create make setup
+
+put user in group
+usermod -G <GroupName> <username>
+put user set switch
+
+show current path
+pwd
+directory folder where location
+
+list files in current directory
+ls
+show explore
+
+list hidden files (and all other files) in current directory
+ls -a
+show explore hidden
+
+list files in current directory with details
+ls -l
+show explore details info
+
+create a hidden file
+touch .<FileName>
+hide make new
+
+create a hidden directory
+touch .<DirectoryName>
+hide make new folder
+
+hide a file
+mv <FileName> .<FileName>
+hidden
+
+hide a directory
+mv <DirectoryName> .<DirectoryName>
+hidden folder
+
+change directory
+cd <DirectoryName>
+changedirectory folder switch go to goto
+
+move up one directory
+cd ..
+changedirectory folder switch go to goto back return
+
+create a directory
+mkdir <DirectoryName>
+folder new build make setup
+
+remove and empty directory
+rmdir <DirectoryName>
+destroy delete
+
+remove a directory with files in it
+rm -r <DirectoryName>
+rmdir destroy delete empty non-empty
+
+create an empty file
+touch <FileName>
+make new build setup
+
+create a file with content
+echo "<Your Content Here>" >> <FileName>
+print write show text output save
+
+show manual 
+man <CommandName>
+help command use usage
+
+show help
+<CommandName> --help
+man manual command use usage
+
+copy a file
+cp <FileName> <FileDestination>
+paste
+
+move a file
+mv <FileName> <FileDestination>
+cut
+
+rename a file
+mv <FileName> <NewFileName>
+name change
+
+display file contents
+cat <FileName>
+text output show display read
+
+edit file contents
+<Editor> <FileName>
+edit text show read display change write
+
+switch user account
+su <UserName>
+root name username
+
+execute as root
+sudo <Command>
+su admin administrator super user
+
+see available disk space
+df -m
+hard drive hdd ssd 
+
+see disk usage
+du <DirectoryName>
+hard drive hdd ssd 
+
+zip a file
+zip <NewZipFileName>.zip <file1> <file2> <file3>
+compress unzip .zip
+
+zip a directory
+zip -r <NewFileName>.zip <DirectoryToZip>
+compress unzip .zip
+
+unzip a file
+unzip <FileName>.zip
+compress unzip zip .zip
+
+see system information
+uname -a
+info stats linux version os software
+
+install a package
+apt install <PackageName>
+app application program software apt-get
+
+update package listings
+apt update
+app application program software apt-get
+
+upgrade all packages
+apt upgrade
+app application program software apt-get
+
+search for an installable package
+apt search <Search Terms>
+app application program software apt-get search find location look
+
+ping an IP
+ping <IPAddr>
+networking connection address server
+
+show internet connection information
+ifconfig
+networking connection address server ip
+
+search an IP for open ports
+nmap <IPAddr>
+networking connection address server
+
+search the output of a command
+<CommandName> | grep <SearchTerm>
+find look locate discover
+
+ssh to a remote server
+ssh <RemoteUser>@<RemoteServer>
+login access secure
+
+generate an ssh key
+ssh-keygen
+login access secure
+
+copy an ssh id to a remote server
+ssh-copy-id -i <IDName> <RemoteUser>@<RemoteServer>
+login access secure identity key
+
+see system processes
+top
+apps task manager applications software running ram cpu
+
+launch a detachable program with tmux
+tmux new -s <SessionName>
+
+break away from tmux and detach
+ctrl+b d
+
+attach to tmux session
+tmux a -t <SessionName>
+
+List tmux sessions
+tmux ls
+
+kill tmux session
+tmux kill-session -t <SessionName>
+
+kill all tmux sessions
+tmux ls | grep : | cut -d. -f1 | awk '{print substr($1, 0, length($1)-1)}' | xargs kill
+
+see local users
+cut -d: -f1 /etc/passwd
+view all name username names usernames user list
+
+list and describe all installed packages
+dpkg -l
+
+name all installed packages
+dpkg --get-selections | grep -v "deinstall" | cut -f1
+
+edit path (requires reboot)
+<Editor> /ect/environment
