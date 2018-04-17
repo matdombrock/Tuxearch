@@ -4,7 +4,7 @@
 
 [Check It Out!](http://mzero.space/tuxearch/) [Self-hosted demo site, may be down.]
 
-![Tuxearch Screenshot](http://mzero.space/main/wp-content/uploads/2018/03/mzero-space-cli-.png)
+![Tuxearch Screenshot](https://i.imgur.com/RHU7HqK.gif)
 
 ## Adding to the database:
 Adding to the database is actually really easy. Just edit "db/database.json" and append the new data to the bottom of the file  as follows:
