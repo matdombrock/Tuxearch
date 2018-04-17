@@ -1,0 +1,26 @@
+{
+  "name": "tuxearch",
+  "version": "1.0.0",
+  "description": "A Searchable Database of *nix Commands.",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matdombrock/Tuxearch.git"
+  },
+  "keywords": [
+    "linux"
+  ],
+  "author": "Matieu Dombrock",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matdombrock/Tuxearch/issues"
+  },
+  "homepage": "https://github.com/matdombrock/Tuxearch#readme"
+}
