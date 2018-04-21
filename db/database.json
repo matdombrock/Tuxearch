@@ -448,5 +448,15 @@
 		"INFO" : "suspend the system",
 		"COMMAND" : "systemctl suspend ",
 		"TAGS" : "shut down exit pause hibernate session computer"
+	},
+	{
+		"INFO" : "ps - process status",
+		"COMMAND" : "ps -aux",
+		"TAGS" : "list processes programs running show see check software apps"
+	},
+	{
+		"INFO" : "split - split a file into multiple smaller files",
+		"COMMAND" : "split -l <NumberOfLinesPerFile> <OrignalFileName> <FilePrefix>",
+		"TAGS" : "convert small size cut chunk slice chop"
 	}
 ]
