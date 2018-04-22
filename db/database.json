@@ -458,5 +458,12 @@
 		"INFO" : "split - split a file into multiple smaller files",
 		"COMMAND" : "split -l <NumberOfLinesPerFile> <OrignalFileName> <FilePrefix>",
 		"TAGS" : "convert small size cut chunk slice chop"
+	},
+	{
+		"INFO" : "add user to a group",
+		"COMMAND" : "adduser <UserName> <Group>",
+		"TAGS" : "change set name"
 	}
+	
+
 ]
