@@ -463,7 +463,10 @@
 		"INFO" : "add user to a group",
 		"COMMAND" : "adduser <UserName> <Group>",
 		"TAGS" : "change set name"
+	},
+	{
+		"INFO" : "watch the results of a command",
+		"COMMAND" : "watch -n <Interval in Seconds> <Command To Watch>",
+		"TAGS" : "live view monitor feed"
 	}
-	
-
 ]
