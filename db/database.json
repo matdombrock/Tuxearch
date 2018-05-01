@@ -468,5 +468,10 @@
 		"INFO" : "watch the results of a command",
 		"COMMAND" : "watch -n <Interval in Seconds> <Command To Watch>",
 		"TAGS" : "live view monitor feed"
+	},
+	{
+		"INFO" : "time a command",
+		"COMMAND" : "time <Command>",
+		"TAGS" : "timer check stop watch stopwatch execution speed"
 	}
 ]
