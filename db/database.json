@@ -460,33 +460,33 @@
 		"TAGS" : "convert small size cut chunk slice chop"
 	},
 	{
-		"INFO" : "add user to a group",
+		"INFO" : "adduser - add user to a group",
 		"COMMAND" : "adduser <UserName> <Group>",
 		"TAGS" : "change set name"
 	},
 	{
-		"INFO" : "watch the results of a command",
+		"INFO" : "watch - watch the results of a command",
 		"COMMAND" : "watch -n <Interval in Seconds> <Command To Watch>",
 		"TAGS" : "live view monitor feed"
 	},
 	{
-		"INFO" : "time a command",
+		"INFO" : "time - time a command",
 		"COMMAND" : "time <Command>",
 		"TAGS" : "timer check stop watch stopwatch execution speed"
 	},
 	{
-		"INFO" : "word count",
+		"INFO" : "wc - word count",
 		"COMMAND" : "wc <FileName>",
 		"TAGS" : "check number words"
 	},
 	{
-		"INFO" : "line count",
+		"INFO" : "wc - line count",
 		"COMMAND" : "wc -l <FileName>",
 		"TAGS" : "check number lines"
 	},
 	{
-		"INFO" : "name server lookup",
+		"INFO" : "nslookup - name server lookup",
 		"COMMAND" : "nslookup <URL>",
-		"TAGS" : "find search get ip domain address convert"
+		"TAGS" : "find search get ip domain address convert ns"
 	}
 ]
