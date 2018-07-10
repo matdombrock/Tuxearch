@@ -483,5 +483,10 @@
 		"INFO" : "line count",
 		"COMMAND" : "wc -l <FileName>",
 		"TAGS" : "check number lines"
+	},
+	{
+		"INFO" : "name server lookup",
+		"COMMAND" : "nslookup <URL>",
+		"TAGS" : "find search get ip domain address convert"
 	}
 ]
