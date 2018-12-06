@@ -1,0 +1,2 @@
+To get apache to sever this Node app on Ubuntu it is required to enable to proxy in:
+/etc/apache2/sites-available/000-default.conf

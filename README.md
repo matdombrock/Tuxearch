@@ -2,7 +2,7 @@
 ## Pronounced: (tux-search)
 ### A Searchable Database of *nix Commands. 
 
-[Check It Out!](http://mzero.space/tuxearch/) [Self-hosted demo site, may be down.]
+[Check It Out!](http://lab.mzero.space:720) [Self-hosted demo site, may be down.]
 
 ![Tuxearch Screenshot](https://i.imgur.com/RHU7HqK.gif)
 

@@ -41,7 +41,7 @@ function Start(){
           return console.log(err);
         }
         app.set('commands', JSON.parse(data));
-        app.listen(8080);
+        app.listen(720);
     });
 }
 Start();
