@@ -489,4 +489,9 @@
 		"COMMAND" : "nslookup <URL>",
 		"TAGS" : "find search get ip domain address convert ns"
 	}
+	{
+		"INFO": "Comment out file and create new file"
+		"COMMAND": "sed -e 's/^/#/' file > newfile"
+		"TAGS": "Insert character into File"
+	}
 ]
